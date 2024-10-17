@@ -9,7 +9,7 @@
 
  - создать ключ в KMS;
 
-Весь код см. в файле `trr\bucket-s3.tf`
+Весь код см. в файле [trr\bucket-s3.tf](https://github.com/DmitryIll/cloud-scurity/blob/main/trr/bucket-s3.tf)
 
 ```
 resource "yandex_kms_symmetric_key" "key-sym" {
